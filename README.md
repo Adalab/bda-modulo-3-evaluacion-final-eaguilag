@@ -40,9 +40,9 @@ El ejercicio de evaluación completo se encuentra Jupyter Notebook dentro del re
 
 La carpeta `ETL_Folder` se ha creado con el propósito de demostrar las habilidades de ETL replicando la primera **Fase 1: Exploración y Limpieza** del ejercicio. Dentro de la carpeta `src`se puede encontrar el archivo de soporte `eda_support.py` que contiene las funciones pertinentes para la exploración EDA, así como la limpieza y transformación de los datos. Para iniciar el proceso y conseguir el archivo CSV con los datos limpios se ha de ejecutar el siguiente comando desde la terminal:
 
-''' python
-python main.py
-'''
+   ```python
+   python main.py
+   ```
 
 ## INSTRUCTORA DEL MÓDULO
 
