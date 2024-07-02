@@ -1,8 +1,8 @@
 #%%
 from src import eda_support as eda
 #%%
-df_loyalty = eda.csv_to_dataframe("Customer Loyalty History.csv")
-df_flight = eda.csv_to_dataframe("Customer Flight Activity.csv")
+df_loyalty = eda.csv_to_dataframe("files/Customer Loyalty History.csv")
+df_flight = eda.csv_to_dataframe("files/Customer Flight Activity.csv")
 
 eda.dataframe_exploration(df_loyalty, "Customer Loyalty History")
 eda.dataframe_exploration(df_flight, "Customer Flight Activity")
@@ -15,5 +15,5 @@ df_cleaned = eda.clean_data(df_merged)
 #%%
 df_imputed = eda.iterative_imputation(df_cleaned)
 #%%
-df_imputed.to_csv("customer-data.csv",index=False)
-print("Proceso EDA finalizado. Archivo customer-data.csv limpio guardado correctamente.")
+df_imputed.to_csv("files/customer-data.csv",index=False)
+print("Proceso EDA finalizado. Archivo customer-data.csv guardado correctamente.")
