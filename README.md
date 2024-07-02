@@ -18,7 +18,7 @@ Ejercicio de evaluación final del **Módulo 3** del Bootcamp de **Análisis de 
 
 ## ENTENDIENDO EL FICHERO
 
-El ejercicio de evaluación se encuentra Jupyter Notebook dentro del repositorio. El archivo está nombrado como [bda-modulo-3-evaluacion-final-promo-angela-elena-aguila.ipynb](https://github.com/Adalab/bda-modulo-3-evaluacion-final-eaguilag/blob/main/bda-modulo-3-evaluacion-final-promo-angela-elena-aguila.ipynb) y se estructura de la siguiente forma:
+El ejercicio de evaluación completo se encuentra Jupyter Notebook dentro del repositorio. El archivo está nombrado como [bda-modulo-3-evaluacion-final-promo-angela-elena-aguila.ipynb](https://github.com/Adalab/bda-modulo-3-evaluacion-final-eaguilag/blob/main/bda-modulo-3-evaluacion-final-promo-angela-elena-aguila.ipynb) y se estructura de la siguiente forma:
 
 - Importación de librerías.
 
@@ -38,6 +38,11 @@ El ejercicio de evaluación se encuentra Jupyter Notebook dentro del repositorio
 
    - **Prueba Estadística:** Prueba de hipóstesis para determinar si *existe una diferencia significativa en el número de vuelos reservados entre los diferentes niveles educativos*.
 
+La carpeta `ETL_Folder` se ha creado con el propósito de demostrar las habilidades de ETL replicando la primera **Fase 1: Exploración y Limpieza** del ejercicio. Dentro de la carpeta `src`se puede encontrar el archivo de soporte `eda_support.py` que contiene las funciones pertinentes para la exploración EDA, así como la limpieza y transformación de los datos. Para iniciar el proceso y conseguir el archivo CSV con los datos limpios se ha de ejecutar el siguiente comando desde la terminal:
+
+''' python
+python main.py
+'''
 
 ## INSTRUCTORA DEL MÓDULO
 
